@@ -73,7 +73,7 @@
                     {
                         "id": "prometheus",
                         "title": "prometheus",
-                        "img": "",
+                        "img": "img/prometheus.png",
                         "description": "Prometheus Monitoring Stack",
                         "link": "",
                         "linkCreate": {
