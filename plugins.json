@@ -8,35 +8,56 @@
                         "title": "jenkins",
                         "img": "img/jenkins.png",
                         "description": "Continuous Integration & Automation Server",
-                        "link": "/jenkins/"
+                        "link": "",
+                        "linkCreate": {
+                            "host": "jenkins",
+							"endPath": ""
+                        }
                     },
                     {
-                        "id": "gerrit",
-                        "title": "gerrit",
-                        "img": "img/gerrit.jpg",
+                        "id": "gitlab",
+                        "title": "gitlab",
+                        "img": "img/gitlab.svg",
                         "description": "Git Repository Management & Code Review Tool",
-                        "link": "/gerrit/"
+                        "link": "",
+                        "linkCreate": {
+                            "host": "gitlab-ce",
+							"endPath": ""
+                        }
                     },
                     {
                         "id": "sonar",
                         "title": "sonar",
                         "img": "img/sonar.png",
                         "description": "Static Code Analysis",
-                        "link": "/sonar/"
+                        "link": "",
+                        "linkCreate": {
+                            "host": "sonar",
+							"endPath": ""
+                        }
                     },
                     {
                         "id": "nexus",
                         "title": "nexus",
                         "img": "img/nexus.png",
                         "description": "Software Repository Manager",
-                        "link": "/nexus/"
+                        "link": "",
+                        "linkCreate": {
+                            "host": "nexus",
+							"endPath": ""
+                        }
                     },
                     {
-                        "id": "kibana",
+ 
+                       "id": "kibana",
                         "title": "kibana",
                         "img": "img/kibana.png",
                         "description": "Kibana Dashboard for Logging (ELK)",
-                        "link": "/app/kibana"
+                        "link": "",
+                        "linkCreate": {
+                            "host": "kibana",
+							"endPath": "/app/kibana"
+                        }
                     },
                     {
                         "id": "selenium",
@@ -46,29 +67,41 @@
                         "link": "",
                         "linkCreate": {
                             "host": "selenium",
-                            "endPath": "//grid/console"
+                            "endPath": "/grid/console"
                         }
                     },
                     {
-                        "id": "sensu",
-                        "title": "sensu",
-                        "img": "img/sensu.png",
-                        "description": "Monitoring",
-                        "link": "/sensu/"
+                        "id": "prometheus",
+                        "title": "prometheus",
+                        "img": "",
+                        "description": "Prometheus Monitoring Stack",
+                        "link": "",
+                        "linkCreate": {
+                            "host": "prometheus",
+							"endPath": ""
+                        }
                     },
                     {
                         "id": "ldap-ltb",
                         "title": "ltb",
                         "img": "img/ltb.png",
                         "description": "Application that allows users to change their password in an LDAP directory",
-                        "link": "/ldap-ltb/"
+                        "link": "",
+                        "linkCreate": {
+                            "host": "adop-ldap-ltb",
+							"endPath": ""
+                        }
                     },
                     {
                         "id": "ldap-phpadmin",
                         "title": "phpldapadmin",
                         "img": "img/phpldapadmin.png",
                         "description": "Browser to manage your LDAP server",
-                        "link": "/ldap-phpadmin/"
+                        "link": "",
+                        "linkCreate": {
+                            "host": "adop-ldap-phpadmin",
+							"endPath": ""
+                        }
                     }
                 ]
             }

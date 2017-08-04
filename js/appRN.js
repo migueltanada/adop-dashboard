@@ -81,7 +81,8 @@
     }
     
     function createUrl(host){
-        return "http://"+ host + "." + window.location.host+ (window.location.host.indexOf(".xip.io") > -1 ? "" : ".xip.io/");
+		var domain = "openshift.africa.alexanderforbes.net";
+        return "http://"+ host + "." + domain;
     }
          
     function getStatusClass(status,node_status){
